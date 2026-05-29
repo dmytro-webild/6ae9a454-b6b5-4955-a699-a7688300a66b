@@ -80,7 +80,7 @@ export default function LandingPage() {
         {
           text: "Book an Appointment",          href: "#booking"},
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780029439119-zwrf2cxx.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780029439119-zwrf2cxx.jpg?_wi=1"
       imageAlt="Power washing a trash bin"
       mediaAnimation="slide-up"
       avatars={[
@@ -134,11 +134,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Deep Scrubbing",          description: "Thorough manual scrubbing to remove tough dirt and grime.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-red-brush-pink-surface_23-2147860272.jpg",          imageAlt: "Brush icon"},
+          title: "Deep Scrubbing",          description: "Thorough manual scrubbing to remove tough dirt and grime.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-red-brush-pink-surface_23-2147860272.jpg?_wi=1",          imageAlt: "Brush icon"},
         {
-          title: "Insect Control",          description: "Treatment to deter pests and keep your bins insect-free.",          imageSrc: "http://img.b2bpic.net/free-vector/pest-control-infographics_1284-10246.jpg",          imageAlt: "Bug icon"},
+          title: "Insect Control",          description: "Treatment to deter pests and keep your bins insect-free.",          imageSrc: "http://img.b2bpic.net/free-vector/pest-control-infographics_1284-10246.jpg?_wi=1",          imageAlt: "Bug icon"},
         {
-          title: "Fresh Scent Treatment",          description: "Application of a pleasant, long-lasting fresh scent.",          imageSrc: "http://img.b2bpic.net/free-photo/decorative-accessories-standing-shelf_1304-4084.jpg",          imageAlt: "Sparkles icon"},
+          title: "Fresh Scent Treatment",          description: "Application of a pleasant, long-lasting fresh scent.",          imageSrc: "http://img.b2bpic.net/free-photo/decorative-accessories-standing-shelf_1304-4084.jpg?_wi=1",          imageAlt: "Sparkles icon"},
         {
           title: "Power Washing",          description: "High-pressure washing for a deep, sanitized clean.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=9e62g2",          imageAlt: "Water icon"},
         {
@@ -214,15 +214,15 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "1",          name: "Sarah J.",          date: "May 2024",          title: "Bins never smelled this good!",          quote: "Oscar's team did an amazing job! My bins have never smelled this fresh and clean. The service was fast and professional.",          tag: "Smell Gone",          avatarSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-relaxing-home_23-2150307065.jpg",          avatarAlt: "Sarah J. Avatar",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780029439119-zwrf2cxx.jpg",          imageAlt: "female customer avatar smiling"},
+          id: "1",          name: "Sarah J.",          date: "May 2024",          title: "Bins never smelled this good!",          quote: "Oscar's team did an amazing job! My bins have never smelled this fresh and clean. The service was fast and professional.",          tag: "Smell Gone",          avatarSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-relaxing-home_23-2150307065.jpg",          avatarAlt: "Sarah J. Avatar",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780029439119-zwrf2cxx.jpg?_wi=2",          imageAlt: "female customer avatar smiling"},
         {
           id: "2",          name: "Michael T.",          date: "April 2024",          title: "Highly Recommend for Cleanliness",          quote: "I was skeptical at first, but Oscar's Trash Bin Cleaning delivered! Our bins are spotless and I no longer worry about pests. Great job!",          tag: "Pest-Free",          avatarSrc: "http://img.b2bpic.net/free-photo/young-man-sad-expression_1194-2829.jpg",          avatarAlt: "Michael T. Avatar",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780029439119-9tmze8cg.jpg",          imageAlt: "female customer avatar smiling"},
         {
-          id: "3",          name: "Emily R.",          date: "April 2024",          title: "Eco-friendly and Effective",          quote: "Love that they use non-harmful chemicals. It's important to me, and the bins are still sparkling clean. Fantastic service!",          tag: "Green Clean",          avatarSrc: "http://img.b2bpic.net/free-photo/old-woman-confronting-alzheimer-disease_23-2149043724.jpg",          avatarAlt: "Emily R. Avatar",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-red-brush-pink-surface_23-2147860272.jpg",          imageAlt: "female customer avatar smiling"},
+          id: "3",          name: "Emily R.",          date: "April 2024",          title: "Eco-friendly and Effective",          quote: "Love that they use non-harmful chemicals. It's important to me, and the bins are still sparkling clean. Fantastic service!",          tag: "Green Clean",          avatarSrc: "http://img.b2bpic.net/free-photo/old-woman-confronting-alzheimer-disease_23-2149043724.jpg",          avatarAlt: "Emily R. Avatar",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-red-brush-pink-surface_23-2147860272.jpg?_wi=2",          imageAlt: "female customer avatar smiling"},
         {
-          id: "4",          name: "David K.",          date: "March 2024",          title: "Fast and Reliable!",          quote: "Oscar's provides a super fast and reliable service. My bins are cleaned on schedule every time without any hassle. A true lifesaver!",          tag: "Efficient",          avatarSrc: "http://img.b2bpic.net/free-photo/middle-age-businessman-smiling-happy-standing-city_839833-25759.jpg",          avatarAlt: "David K. Avatar",          imageSrc: "http://img.b2bpic.net/free-vector/pest-control-infographics_1284-10246.jpg",          imageAlt: "female customer avatar smiling"},
+          id: "4",          name: "David K.",          date: "March 2024",          title: "Fast and Reliable!",          quote: "Oscar's provides a super fast and reliable service. My bins are cleaned on schedule every time without any hassle. A true lifesaver!",          tag: "Efficient",          avatarSrc: "http://img.b2bpic.net/free-photo/middle-age-businessman-smiling-happy-standing-city_839833-25759.jpg",          avatarAlt: "David K. Avatar",          imageSrc: "http://img.b2bpic.net/free-vector/pest-control-infographics_1284-10246.jpg?_wi=2",          imageAlt: "female customer avatar smiling"},
         {
-          id: "5",          name: "Jessica L.",          date: "March 2024",          title: "Great Value for Money",          quote: "The pricing is very fair for the quality of service you receive. My bins feel brand new after every cleaning. Definitely worth it!",          tag: "Affordable",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-woman-playing-poker-casino_23-2151831023.jpg",          avatarAlt: "Jessica L. Avatar",          imageSrc: "http://img.b2bpic.net/free-photo/decorative-accessories-standing-shelf_1304-4084.jpg",          imageAlt: "female customer avatar smiling"},
+          id: "5",          name: "Jessica L.",          date: "March 2024",          title: "Great Value for Money",          quote: "The pricing is very fair for the quality of service you receive. My bins feel brand new after every cleaning. Definitely worth it!",          tag: "Affordable",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-woman-playing-poker-casino_23-2151831023.jpg",          avatarAlt: "Jessica L. Avatar",          imageSrc: "http://img.b2bpic.net/free-photo/decorative-accessories-standing-shelf_1304-4084.jpg?_wi=2",          imageAlt: "female customer avatar smiling"},
       ]}
       title="Trusted by Homeowners"
       description="Hear from our happy customers about their fresh and clean trash bins!"
