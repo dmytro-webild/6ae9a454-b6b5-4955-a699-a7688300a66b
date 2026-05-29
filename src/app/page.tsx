@@ -109,7 +109,7 @@ export default function LandingPage() {
           href: "#booking",
         },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780029439119-zwrf2cxx.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780029439119-zwrf2cxx.jpg?_wi=1"
       imageAlt="Power washing a trash bin"
       mediaAnimation="slide-up"
       avatars={[
@@ -171,7 +171,7 @@ export default function LandingPage() {
       description="Oscar's Trash Bin Cleaning is dedicated to providing top-notch residential cleaning services. We make it easy and affordable to keep your home's trash bins immaculate."
       subdescription="Using only eco-friendly and non-harmful cleaning products, we ensure a safe environment for your family and pets while delivering a deep clean that lasts."
       icon={Leaf}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780029439119-9tmze8cg.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780029439119-9tmze8cg.jpg?_wi=1"
       imageAlt="Cleaning products and services information"
       mediaAnimation="slide-up"
     />
@@ -185,19 +185,19 @@ export default function LandingPage() {
         {
           title: "Deep Scrubbing",
           description: "Thorough manual scrubbing to remove tough dirt and grime.",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-red-brush-pink-surface_23-2147860272.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-red-brush-pink-surface_23-2147860272.jpg?_wi=1",
           imageAlt: "Brush icon",
         },
         {
           title: "Insect Control",
           description: "Treatment to deter pests and keep your bins insect-free.",
-          imageSrc: "http://img.b2bpic.net/free-vector/pest-control-infographics_1284-10246.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/pest-control-infographics_1284-10246.jpg?_wi=1",
           imageAlt: "Bug icon",
         },
         {
           title: "Fresh Scent Treatment",
           description: "Application of a pleasant, long-lasting fresh scent.",
-          imageSrc: "http://img.b2bpic.net/free-photo/decorative-accessories-standing-shelf_1304-4084.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/decorative-accessories-standing-shelf_1304-4084.jpg?_wi=1",
           imageAlt: "Sparkles icon",
         },
         {
@@ -330,7 +330,7 @@ export default function LandingPage() {
           tag: "Smell Gone",
           avatarSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-relaxing-home_23-2150307065.jpg",
           avatarAlt: "Sarah J. Avatar",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780029439119-zwrf2cxx.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780029439119-zwrf2cxx.jpg?_wi=2",
           imageAlt: "female customer avatar smiling",
         },
         {
@@ -342,7 +342,7 @@ export default function LandingPage() {
           tag: "Pest-Free",
           avatarSrc: "http://img.b2bpic.net/free-photo/young-man-sad-expression_1194-2829.jpg",
           avatarAlt: "Michael T. Avatar",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780029439119-9tmze8cg.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780029439119-9tmze8cg.jpg?_wi=2",
           imageAlt: "female customer avatar smiling",
         },
         {
@@ -354,7 +354,7 @@ export default function LandingPage() {
           tag: "Green Clean",
           avatarSrc: "http://img.b2bpic.net/free-photo/old-woman-confronting-alzheimer-disease_23-2149043724.jpg",
           avatarAlt: "Emily R. Avatar",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-red-brush-pink-surface_23-2147860272.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-red-brush-pink-surface_23-2147860272.jpg?_wi=2",
           imageAlt: "female customer avatar smiling",
         },
         {
@@ -366,7 +366,7 @@ export default function LandingPage() {
           tag: "Efficient",
           avatarSrc: "http://img.b2bpic.net/free-photo/middle-age-businessman-smiling-happy-standing-city_839833-25759.jpg",
           avatarAlt: "David K. Avatar",
-          imageSrc: "http://img.b2bpic.net/free-vector/pest-control-infographics_1284-10246.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/pest-control-infographics_1284-10246.jpg?_wi=2",
           imageAlt: "female customer avatar smiling",
         },
         {
@@ -378,7 +378,7 @@ export default function LandingPage() {
           tag: "Affordable",
           avatarSrc: "http://img.b2bpic.net/free-photo/portrait-woman-playing-poker-casino_23-2151831023.jpg",
           avatarAlt: "Jessica L. Avatar",
-          imageSrc: "http://img.b2bpic.net/free-photo/decorative-accessories-standing-shelf_1304-4084.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/decorative-accessories-standing-shelf_1304-4084.jpg?_wi=2",
           imageAlt: "female customer avatar smiling",
         },
       ]}
