@@ -59,7 +59,7 @@ export default function LandingPage() {
       background={{
         variant: "plain"}}
       title="Keep Your Trash Bins Fresh & Clean"
-      description="Say goodbye to lingering odors, harmful bacteria, and unwanted pests. Our professional deep cleaning services ensure your bins are sparkling clean and sanitized."
+      description="Located in Whittier, we say goodbye to lingering odors, harmful bacteria, and unwanted pests. Our professional deep cleaning services ensure your bins are sparkling clean and sanitized."
       kpis={[
         {
           value: "99%",          label: "Satisfaction Rate"
@@ -122,7 +122,7 @@ export default function LandingPage() {
       description="Oscar's Trash Bin Cleaning is dedicated to providing top-notch residential cleaning services. We make it easy and affordable to keep your home's trash bins immaculate."
       subdescription="Using only eco-friendly and non-harmful cleaning products, we ensure a safe environment for your family and pets while delivering a deep clean that lasts."
       icon={Leaf}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780029439119-9tmze8cg.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780029439119-9tmze8cg.jpg"
       imageAlt="Cleaning products and services information"
       mediaAnimation="slide-up"
     />
@@ -261,7 +261,7 @@ export default function LandingPage() {
         variant: "plain"}}
       tag="Contact Us"
       title="Get a Quote or Book Your Cleaning"
-      description="Ready for sparkling clean bins? Fill out this quick form with your name, phone number, and a brief message for a quote or inquiry. You can also call/text us directly at 562-588-8422, or DM us for more info!"
+      description="Ready for sparkling clean bins? Fill out this quick form with your name, phone number, and a brief message for a quote or inquiry. You can also call/text us directly at 562-588-8422 to book your next appointment and we will come to you, or DM us for more info!"
       imageSrc="http://img.b2bpic.net/free-photo/crystal-glass-plenty-water_23-2147608446.jpg"
       imageAlt="Clean trash bin with water splash"
       mediaAnimation="slide-up"
