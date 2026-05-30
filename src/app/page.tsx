@@ -257,13 +257,11 @@ export default function LandingPage() {
       background={{
         variant: "plain"}}
       tag="Contact Us"
-      title="Get a Quote or Book Your Cleaning"
-      description="Ready for sparkling clean bins? Fill out this quick form with your name, phone number, and a brief message for a quote or inquiry. You can also call/text us directly at 562-588-8422 to book your next appointment and we will come to you, or DM us for more info!"
+      title="Book Your Cleaning"
+      description="Ready for sparkling clean bins? You can call/text us directly at 562-588-8422 to book your next appointment and we will come to you, or DM us for more info!"
       imageSrc="http://img.b2bpic.net/free-photo/crystal-glass-plenty-water_23-2147608446.jpg"
       imageAlt="Clean trash bin with water splash"
       mediaAnimation="slide-up"
-      inputPlaceholder="Your Name, Phone Number, and Message"
-      buttonText="Submit Inquiry"
     />
   </div>
 
