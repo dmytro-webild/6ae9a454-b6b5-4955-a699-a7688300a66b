@@ -123,7 +123,7 @@ export default function LandingPage() {
       description="Oscar's Trash Bin Cleaning is dedicated to providing top-notch residential cleaning services. We make it easy and affordable to keep your home's trash bins immaculate."
       subdescription="Using only eco-friendly and non-harmful cleaning products, we ensure a safe environment for your family and pets while delivering a deep clean that lasts."
       icon={Leaf}
-      imageSrc="https://webuild-dev.s3.eu-north-1.1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780029439119-9tmze8cg.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780114138138-de72e2ot.jpg"
       imageAlt="Cleaning products and services information"
       mediaAnimation="slide-up"
     />
