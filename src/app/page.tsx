@@ -29,6 +29,9 @@ export default function LandingPage() {
         headingFontWeight="normal"
     >
       <ReactLenis root>
+        <div className="w-full bg-accent text-primary-cta-text py-2 text-center text-sm font-semibold">
+          Online booking is coming soon! For now, please call or text us to schedule your service.
+        </div>
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
       navItems={[
