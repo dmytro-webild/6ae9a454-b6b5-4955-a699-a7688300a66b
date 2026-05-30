@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactSplit from '@/components/sections/contact/ContactSplit';
+
 import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
@@ -46,8 +46,6 @@ export default function LandingPage() {
           name: "Reviews",          id: "#reviews"},
         {
           name: "Book Now",          id: "#booking"},
-        {
-          name: "Contact",          id: "#contact"},
       ]}
       button={{
         text: "Book Now",        href: "#booking"}}
@@ -246,24 +244,11 @@ export default function LandingPage() {
       tag="Easy Booking"
       buttons={[
         {
-          text: "Send Us Your Details",          href: "#contact"},
+          text: "Send Us Your Details",          href: "#booking"},
       ]}
     />
   </div>
 
-  <div id="contact" data-section="contact">
-      <ContactSplit
-      useInvertedBackground={true}
-      background={{
-        variant: "plain"}}
-      tag="Contact Us"
-      title="Book Your Cleaning"
-      description="Ready for sparkling clean bins? You can call/text us directly at 562-588-8422 to book your next appointment and we will come to you, or DM us for more info!"
-      imageSrc="http://img.b2bpic.net/free-photo/crystal-glass-plenty-water_23-2147608446.jpg"
-      imageAlt="Clean trash bin with water splash"
-      mediaAnimation="slide-up"
-    />
-  </div>
 
   <div id="footer" data-section="footer">
       <FooterCard
