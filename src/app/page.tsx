@@ -29,9 +29,6 @@ export default function LandingPage() {
         headingFontWeight="normal"
     >
       <ReactLenis root>
-        <div className="w-full bg-accent text-primary-cta-text py-2 text-center text-sm font-semibold">
-          Online booking is coming soon! For now, please call or text us to schedule your service.
-        </div>
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
       navItems={[
@@ -78,9 +75,9 @@ export default function LandingPage() {
       tagIcon={Sparkles}
       buttons={[
         {
-          text: "Call or Text Now: 562-588-8422",          href: "tel:562-588-8422"},
+          text: "Call or Text Now: 562-588-8422 (Online booking is coming soon! For now, please call or text us to schedule your service.)",          href: "tel:562-588-8422"},
         {
-          text: "Book an Appointment",          href: "#booking"},
+          text: "Book an Appointment (Call or text us to schedule your service.)",          href: "#booking"},
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780029439119-zwrf2cxx.jpg?_wi=1"
       imageAlt="Power washing a trash bin"
@@ -247,7 +244,7 @@ export default function LandingPage() {
       tag="Easy Booking"
       buttons={[
         {
-          text: "Send Us Your Details",          href: "#booking"},
+          text: "Send Us Your Details (Call or text us to schedule your service.)",          href: "#booking"},
       ]}
     />
   </div>
