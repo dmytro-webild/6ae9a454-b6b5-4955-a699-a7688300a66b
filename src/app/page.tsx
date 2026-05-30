@@ -233,7 +233,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Choose Your Date & Time",          description: "Select your preferred cleaning schedule that fits perfectly into your day.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780113470614-y7h7p0ey.jpg?_wi=1",          imageAlt: "Calendar icon"},
+          title: "Choose Your Date & Time",          description: "Select your preferred cleaning schedule that fits perfectly into your day.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780113671863-nqfcdsk3.jpg",          imageAlt: "Person scheduling appointment on phone"},
         {
           title: "Flexible Scheduling",          description: "Modify or reschedule appointments with ease, directly from your phone.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780113470614-y7h7p0ey.jpg?_wi=2",          imageAlt: "Clock icon"},
         {
