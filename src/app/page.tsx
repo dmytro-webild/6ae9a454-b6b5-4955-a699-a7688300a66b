@@ -3,7 +3,6 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactSplit from '@/components/sections/contact/ContactSplit';
-import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
@@ -11,6 +10,7 @@ import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarS
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
+import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import { AlertCircle, CheckCircle2, Instagram, Leaf, Smile, Sparkles } from "lucide-react";
 
 export default function LandingPage() {
@@ -129,24 +129,20 @@ export default function LandingPage() {
   </div>
 
   <div id="services" data-section="services">
-      <FeatureCardEight
+      <ProductCardOne
       textboxLayout="default"
       useInvertedBackground={false}
-      features={[
+      products={[
         {
-          title: "Deep Scrubbing",          description: "Thorough manual scrubbing to remove tough dirt and grime.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-red-brush-pink-surface_23-2147860272.jpg?_wi=1",          imageAlt: "Brush icon"},
+          id: "before",          name: "Before Cleaning",          price: "",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780112868035-futvptj8.jpg",          imageAlt: "Dirty trash bin before cleaning"},
         {
-          title: "Insect Control",          description: "Treatment to deter pests and keep your bins insect-free.",          imageSrc: "http://img.b2bpic.net/free-vector/pest-control-infographics_1284-10246.jpg?_wi=1",          imageAlt: "Bug icon"},
-        {
-          title: "Fresh Scent Treatment",          description: "Application of a pleasant, long-lasting fresh scent.",          imageSrc: "http://img.b2bpic.net/free-photo/decorative-accessories-standing-shelf_1304-4084.jpg?_wi=1",          imageAlt: "Sparkles icon"},
-        {
-          title: "Power Washing",          description: "High-pressure washing for a deep, sanitized clean.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=9e62g2",          imageAlt: "Water icon"},
-        {
-          title: "Non-Harmful Chemicals",          description: "Safe, eco-friendly products for your family and pets.",          imageSrc: "http://img.b2bpic.net/free-photo/green-leaf-clay-craft-cute-nature-handmade-creative-art-graphic_53876-133037.jpg",          imageAlt: "Leaf icon"},
+          id: "after",          name: "After Cleaning",          price: "",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780112868035-iamaoe19.jpg",          imageAlt: "Clean trash bin after cleaning"},
       ]}
-      title="Experience a Superior Clean"
-      description="We go beyond just emptying your bins. Our comprehensive cleaning process eliminates grime, odors, and harmful contaminants."
-      tag="Our Services"
+      title="See the Transformation!"
+      description="Our professional cleaning process revitalizes even the dirtiest bins. Take a look at the incredible difference we make."
+      tag="Before & After"
+      animationType="slide-up"
+      gridVariant="uniform-all-items-equal"
     />
   </div>
 
