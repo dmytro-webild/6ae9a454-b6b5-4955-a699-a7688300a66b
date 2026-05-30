@@ -233,13 +233,13 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Choose Your Date & Time",          description: "Select your preferred cleaning schedule that fits perfectly into your day.",          imageSrc: "http://img.b2bpic.net/free-photo/illustration-personal-organizer-calendar-brick-wall_53876-20975.jpg",          imageAlt: "Calendar icon"},
+          title: "Choose Your Date & Time",          description: "Select your preferred cleaning schedule that fits perfectly into your day.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780113470614-y7h7p0ey.jpg",          imageAlt: "Calendar icon"},
         {
-          title: "Flexible Scheduling",          description: "Modify or reschedule appointments with ease, directly from your phone.",          imageSrc: "http://img.b2bpic.net/free-vector/colorful-project-schedule-template-with-flat-design_23-2147946499.jpg",          imageAlt: "Clock icon"},
+          title: "Flexible Scheduling",          description: "Modify or reschedule appointments with ease, directly from your phone.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780113470614-y7h7p0ey.jpg",          imageAlt: "Clock icon"},
         {
-          title: "Recurring Cleanings",          description: "Set up weekly, bi-weekly, or monthly cleanings for continuous freshness.",          imageSrc: "http://img.b2bpic.net/free-vector/illustration-reverse-clock-icon_53876-5629.jpg",          imageAlt: "Repeat icon"},
+          title: "Recurring Cleanings",          description: "Set up weekly, bi-weekly, or monthly cleanings for continuous freshness.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780113470614-y7h7p0ey.jpg",          imageAlt: "Repeat icon"},
         {
-          title: "Text Reminders",          description: "Get convenient text reminders before your appointment, so you never miss a clean!",          imageSrc: "http://img.b2bpic.net/free-photo/yellow-note-with-word-work-marker-blue-background-flat-lay_169016-33584.jpg",          imageAlt: "Message icon"},
+          title: "Text Reminders",          description: "Get convenient text reminders before your appointment, so you never miss a clean!",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ENbKhCZjFIafW4fP4MDduA9qz9/uploaded-1780113470614-y7h7p0ey.jpg",          imageAlt: "Message icon"},
       ]}
       title="Schedule Your Cleaning Today"
       description="Quick and easy booking — choose your date and we’ll handle the dirty work. Enjoy hassle-free scheduling for sparkling clean bins!"
