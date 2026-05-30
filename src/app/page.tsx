@@ -11,6 +11,7 @@ import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
+import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import { AlertCircle, CheckCircle2, Instagram, Leaf, Smile, Sparkles } from "lucide-react";
 
 export default function LandingPage() {
